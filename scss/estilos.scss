@@ -638,17 +638,7 @@ Intro & index
   display: none;
 }
 
-@media (min-width: 250px) and (max-width:499px) {
-  .portadaMin {
-    display: block;
 
-  }
-
-  .portadaIntro {
-    display: none;
-  }
-
-}
 
 .parrafoIntro {
   width: 100%;
@@ -947,6 +937,43 @@ form p label {
   .h1Responsive {
     margin-top: 78px;
     text-align: center;
+  }
+}
+//Imagenes intro
+@media (min-width: 1467px) and (max-width: 1920px){
+  .portadaLg{
+    display: block;
+  }
+  .portadaIntro{
+    display: none;
+  }
+  .portadaMin{
+    display: none;
+  }
+}
+@media (min-width: 250px) and (max-width:499px) {
+  .portadaMin {
+    display: block;
+
+  }
+  .portadaLg{
+    display: none;
+  }
+  .portadaIntro {
+    display: none;
+  }
+
+}
+@media (min-width: 499px) and (max-width:1467px){
+  .portadaMin {
+    display: none;
+
+  }
+  .portadaLg{
+    display: none;
+  }
+  .portadaIntro {
+    display: block;
   }
 }
 
