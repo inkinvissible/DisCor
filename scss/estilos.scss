@@ -939,6 +939,7 @@ form p label {
     text-align: center;
   }
 }
+
 //Imagenes intro
 @media (min-width: 1467px) and (max-width: 1920px){
   .portadaLg{
@@ -954,6 +955,7 @@ form p label {
 @media (min-width: 250px) and (max-width:499px) {
   .portadaMin {
     display: block;
+    width: 100%;
 
   }
   .portadaLg{
@@ -1001,7 +1003,7 @@ form p label {
   }
 
   .iframeYoutube {
-    width: 100%;
+    width: 70%;
     height: auto;
   }
 
