@@ -690,7 +690,8 @@ form p label {
 
 @media (min-width: 250px) and (max-width: 499px) {
   .portadaMin {
-    display: block; }
+    display: block;
+    width: 100%; }
   .portadaLg {
     display: none; }
   .portadaIntro {
@@ -717,7 +718,7 @@ form p label {
   h2 {
     font-size: 20px; }
   .iframeYoutube {
-    width: 100%;
+    width: 70%;
     height: auto; }
   h4 {
     font-size: 10px; }
