@@ -784,6 +784,9 @@ footer .iconFooter {
     background-color: #bada55;
     color: white; }
 
+footer div p img {
+  border-radius: 150px; }
+
 footer div img {
   width: 50px;
   margin: 0; }
