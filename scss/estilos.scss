@@ -1101,7 +1101,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: gray;
+    color: #bada55;
     text-align: center;
     margin: 0;
   }
@@ -1111,7 +1111,7 @@ footer {
   }
   .iconFooter{
     margin-top: 10px;
-    border: 2px solid #bada55;
+    border: 2px solid #BADA55;
     color: #bada55;
     border-radius: 200px;
     padding: 10px;
@@ -1123,6 +1123,35 @@ footer {
   }
   div p img{
     border-radius: 150px;
+    width: 40px;
+  }
+  .footer{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    
+    width: auto;
+
+    div{
+      display: flex;
+      margin-bottom: 20px;
+    }
+    div a{
+      width: 20px;
+    }
+  }
+  .hechoPor{
+    background-color: #03191E;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    p{
+      color: #FFFBDB ;
+    }
+    a{
+      color: #087f8c;
+    }
   }
 }
 

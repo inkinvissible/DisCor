@@ -765,7 +765,7 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: gray;
+  color: #bada55;
   text-align: center;
   margin: 0; }
 
@@ -775,7 +775,7 @@ footer div {
 
 footer .iconFooter {
   margin-top: 10px;
-  border: 2px solid #bada55;
+  border: 2px solid #BADA55;
   color: #bada55;
   border-radius: 200px;
   padding: 10px;
@@ -785,7 +785,30 @@ footer .iconFooter {
     color: white; }
 
 footer div p img {
-  border-radius: 150px; }
+  border-radius: 150px;
+  width: 40px; }
+
+footer .footer {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  width: auto; }
+  footer .footer div {
+    display: flex;
+    margin-bottom: 20px; }
+  footer .footer div a {
+    width: 20px; }
+
+footer .hechoPor {
+  background-color: #03191E;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center; }
+  footer .hechoPor p {
+    color: #FFFBDB; }
+  footer .hechoPor a {
+    color: #087f8c; }
 
 footer div img {
   width: 50px;
