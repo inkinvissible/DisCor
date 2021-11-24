@@ -3,8 +3,6 @@
   padding: 0;
 }
 
-
-
 $ancho:100%;
 $verde:#bada55;
 
@@ -16,8 +14,6 @@ body {
 * {
   box-sizing: border-box;
 }
-
-
 
 //Hamburguer Menu/ Responsive Menu
 .card {
@@ -401,7 +397,6 @@ h2:hover {
 p {
   font-weight: 400;
 }
-
 .btnDefault {
   height: 5vh;
 
@@ -412,20 +407,11 @@ p {
   background-color: white;
   transition: all 0.5s ease-in-out;
 }
-
 .btnDefault:hover {
   background-color: #646363;
   color: #BADA55;
   border: 2px solid white;
 }
-
-
-
-
-
-
-
-
 /*****************/
 /*Area Clientes*/
 /*****************/
@@ -1126,30 +1112,6 @@ Animaciones
     opacity: 1;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Footer */
 footer {
   p {
