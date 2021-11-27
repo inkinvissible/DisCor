@@ -157,14 +157,15 @@ body {
     display: flex;
     list-style: none;
     padding: 0;
-    width: 20px;
+    width: 50px;
     justify-content: space-between; }
     .sidebar__social a,
     .sidebar__social svg {
       display: inline-block;
       height: 18px;
       width: 18px;
-      color: gray !important; }
+      color: gray !important;
+      font-size: 15px; }
 
 .menu-control {
   display: none; }
@@ -262,6 +263,9 @@ header {
     visibility: hidden; } }
 
 /* Generalidades */
+.bodyRubros {
+  background-color: #bada55; }
+
 main h2 {
   margin: 20px 0 10px 0; }
 

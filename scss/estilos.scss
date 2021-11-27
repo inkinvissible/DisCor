@@ -200,7 +200,7 @@ body {
     display: flex;
     list-style: none;
     padding: 0;
-    width: 20px;
+    width: 50px;
     justify-content: space-between;
 
 
@@ -211,6 +211,7 @@ body {
       height: 18px;
       width: 18px;
       color: gray !important;
+      font-size: 15px;
     }
   }
 }
@@ -352,7 +353,9 @@ header {
 
 /* Generalidades */
 
-
+.bodyRubros{
+  background-color: #bada55;
+}
 main h2 {
   margin: 20px 0 10px 0;
 }
