@@ -858,9 +858,57 @@ Animaciones
     color: #087f8c; }
 
 footer div img {
-  width: 50px;
   margin: 0; }
 
 footer p a {
   text-decoration: none;
   margin: 0; }
+
+.footerRubros p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  margin: 0; }
+
+.footerRubros div {
+  display: flex;
+  justify-content: center; }
+
+.footerRubros .iconFooter {
+  margin-top: 10px;
+  border: 2px solid white;
+  color: white;
+  border-radius: 200px;
+  padding: 10px;
+  margin-left: 10px; }
+  .footerRubros .iconFooter.iconFooter:hover {
+    background-color: #646363;
+    color: white; }
+
+.footerRubros div p img {
+  border-radius: 150px;
+  width: 40px; }
+
+.footerRubros .footer {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  width: auto; }
+  .footerRubros .footer div {
+    display: flex;
+    margin-bottom: 20px; }
+  .footerRubros .footer div a {
+    width: auto; }
+
+.footerRubros .hechoPor {
+  background-color: #03191E;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center; }
+  .footerRubros .hechoPor p {
+    color: #FFFBDB; }
+  .footerRubros .hechoPor a {
+    color: #087f8c; }

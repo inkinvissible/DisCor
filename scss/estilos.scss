@@ -1176,7 +1176,6 @@ Animaciones
 }
 
 footer div img {
-  width: 50px;
   margin: 0;
 }
 
@@ -1184,4 +1183,62 @@ footer p a {
   text-decoration: none;
   margin: 0;
 
+}
+.footerRubros {
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin: 0;
+  }
+  div{
+    display: flex;
+    justify-content: center;
+  }
+  .iconFooter{
+    margin-top: 10px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 200px;
+    padding: 10px;
+    margin-left: 10px;
+    &.iconFooter:hover{
+      background-color: #646363;
+      color: white;
+    }
+  }
+  div p img{
+    border-radius: 150px;
+    width: 40px;
+  }
+  .footer{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    
+    width: auto;
+
+    div{
+      display: flex;
+      margin-bottom: 20px;
+    }
+    div a{
+      width: auto;
+    }
+  }
+  .hechoPor{
+    background-color: #03191E;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    p{
+      color: #FFFBDB ;
+    }
+    a{
+      color: #087f8c;
+    }
+  }
 }
