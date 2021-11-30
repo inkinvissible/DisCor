@@ -808,7 +808,7 @@ Animaciones
     opacity: 1; } }
 
 /* Footer */
-footer p {
+.footer p {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -816,45 +816,45 @@ footer p {
   text-align: center;
   margin: 0; }
 
-footer div {
+.footer div {
   display: flex;
   justify-content: center; }
 
-footer .iconFooter {
+.footer .iconFooter {
   margin-top: 10px;
   border: 2px solid #BADA55;
   color: #bada55;
   border-radius: 200px;
   padding: 10px;
   margin-left: 10px; }
-  footer .iconFooter.iconFooter:hover {
+  .footer .iconFooter.iconFooter:hover {
     background-color: #bada55;
     color: white; }
 
-footer div p img {
+.footer div p img {
   border-radius: 150px;
   width: 40px; }
 
-footer .footer {
+.footer .footer {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
   width: auto; }
-  footer .footer div {
+  .footer .footer div {
     display: flex;
     margin-bottom: 20px; }
-  footer .footer div a {
+  .footer .footer div a {
     width: auto; }
 
-footer .hechoPor {
+.footer .hechoPor {
   background-color: #03191E;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
   align-items: center; }
-  footer .hechoPor p {
+  .footer .hechoPor p {
     color: #FFFBDB; }
-  footer .hechoPor a {
+  .footer .hechoPor a {
     color: #087f8c; }
 
 footer div img {
